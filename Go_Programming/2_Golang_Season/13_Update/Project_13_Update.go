@@ -17,17 +17,11 @@ func main() {
 	checkErr(err)
 	defer db.Close()
 
-	rows, err := db.Query("SELECT product_id, product_name, product_price FROM product ORDER BY product_id ASC")
+	// stmt, err := db.Prepare("UPDATE product SET product_name = ? WHERE product_id = ?")
+	stmt, err := db.Prepare("UPDATE product SET product_price = ? WHERE product_id > ?")
+	// stmt.Exec("Mouse", 5)
+	stmt.Exec(99.9, 4)
 	checkErr(err)
-
-	for rows.Next() {
-		var productId int
-		var productName string
-		var productPrice float64
-		err = rows.Scan(&productId, &productName, &productPrice)
-		checkErr(err)
-		fmt.Printf("productId: %d productName: %s productPrice: %.2f\n", productId, productName, productPrice)
-	}
 }
 
 func checkErr(err error) {

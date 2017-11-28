@@ -5,6 +5,8 @@ import (
 	"io"
 	"net/http"
 	"os"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func main() {
@@ -39,19 +41,21 @@ func uploadHandle(w http.ResponseWriter, r *http.Request) {
 	// file: data, handle: details of file, err: message error
 	file, handle, err := r.FormFile("file")
 	defer file.Close()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
+	checkErr(err, w)
 	// handle => Map
-	fmt.Fprintf(w, "%v", handle.Header)
+	fmt.Fprintf(w, "%v", handle.Header) // Not see
 	// func Create: https://golang.org/pkg/os/
 	f, err := os.OpenFile("../UPLOAD/"+handle.Filename, os.O_CREATE, 0666)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
+	checkErr(err, w)
 	defer f.Close()
+
 	io.Copy(f, file)
 	fmt.Fprintf(w, "Upload complete")
+}
+
+func checkErr(err error, w http.ResponseWriter) {
+	if err != nil {
+		fmt.Println(err)
+		http.Error(w, err.Error(), 500)
+	}
 }
