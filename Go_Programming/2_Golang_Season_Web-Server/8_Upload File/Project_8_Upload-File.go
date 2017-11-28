@@ -51,6 +51,8 @@ func uploadHandle(w http.ResponseWriter, r *http.Request) {
 
 	io.Copy(f, file)
 	fmt.Fprintf(w, "Upload complete")
+
+	// IDEA: Save Image to SparrowDB
 }
 
 func checkErr(err error, w http.ResponseWriter) {

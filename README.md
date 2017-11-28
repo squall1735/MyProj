@@ -1,2 +1,7 @@
 # Golang
 ภาษา Go
+
+# TODO LIST
+How to use:
+#  // [CMD]: Bla Bla Bla..
+CMD: TODO, FIXME, CHANGED, XXX, IDEA, HACK, NOTE, REVIEW, NB, BUG, QUESTION, COMBAK, TEMP
