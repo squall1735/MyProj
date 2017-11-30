@@ -21,12 +21,12 @@ func main() {
 	checkErr(err)
 
 	for rows.Next() {
-		var productId int
+		var productID int
 		var productName string
 		var productPrice float64
-		err = rows.Scan(&productId, &productName, &productPrice)
+		err = rows.Scan(&productID, &productName, &productPrice)
 		checkErr(err)
-		fmt.Printf("productId: %d productName: %s productPrice: %.2f\n", productId, productName, productPrice)
+		fmt.Printf("productId: %d productName: %s productPrice: %.2f\n", productID, productName, productPrice)
 	}
 }
 
