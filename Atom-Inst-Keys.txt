@@ -1,0 +1,79 @@
+﻿Activate Power Mode
+https://atom.io/packages/activate-power-mode
+
+atom-beautify (Ctrl + Alt + B)
+https://atom.io/packages/atom-beautify
+
+Auto Close HTML
+https://atom.io/packages/autoclose-html
+
+Atom autocomplete for modules.
+https://atom.io/packages/autocomplete-modules
+
+autocomplete+ paths
+https://atom.io/packages/autocomplete-paths
+
+A Color Picker (Ctrl + Alt + C)
+https://atom.io/packages/color-picker
+
+Emmet
+https://atom.io/packages/emmet
+
+File Icons
+https://atom.io/packages/file-icons
+
+git-blame (Ctrl + B)
+https://atom.io/packages/git-blame
+
+Git-Plus
+https://atom.io/packages/git-plus
+
+git-time-machine (Atl + T)
+https://atom.io/packages/git-time-machine
+
+go-debug
+https://atom.io/packages/go-debug
+
+go-plus
+https://atom.io/packages/go-plus
+
+Highlight Selected
+https://atom.io/packages/highlight-selected
+
+Linter
+https://atom.io/packages/linter
+
+Minimap package
+https://atom.io/packages/minimap
+
+Open Recent
+https://atom.io/packages/open-recent
+
+pigments
+https://atom.io/packages/pigments
+
+PlatformIO IDE Terminal
+https://atom.io/packages/platformio-ide-terminal
+
+REST Client
+https://atom.io/packages/rest-client
+
+Todo Show
+https://atom.io/packages/todo-show
+
+BrowserPlus (Ctrl + Alt + O)
+https://atom.io/packages/browser-plus
+
+Default : Open in Browser Atom (Ctrl  + Shift + Q)
+https://atom.io/packages/open-in-browser
+
+Script (Ctrl + Shtft + B)
+https://atom.io/packages/script
+
+language-babel
+https://atom.io/packages/language-babel
+-------------------------------------------------------------
+ATOM
+Ctrl + D = Select 1 complete word
+Ctrl + Shift + Click = Multi Point
+Ctrl + UP/DOWN = Swap Line

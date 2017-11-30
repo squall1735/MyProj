@@ -1,0 +1,37 @@
+PATH go get:
+C:\Users\Lemon\go
+----------------------------------------------------------
+PATH npm:
+OLD
+npm config get prefix
+----------------------------------------------------------
+npm install -g ..package.. (global)
+C:\Users\{yourName}\AppData\Roaming\npm
+----------------------------------------------------------
+create: // NOT USE
+Package.json ->    ADD vvvvv
+{
+	"name": "ES6"
+}
+
+		USE vvvvv
+npm install --save-dev babel-cli (in project)
+		ADD vvvvv
+{
+	"name": "ES6",
+	"scripts": {
+		"build": "babel src -d lib"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0"
+	}
+}
+
+----------------------------------------------------------
+USE node - ES6
+command: node --harmony ..js..
+----------------------------------------------------------
+USE babel - ES6
+command: babel-node ..js..
+----------------------------------------------------------
+npm init -> Enter , Eneter , ... , ... , (yes)=Enter
