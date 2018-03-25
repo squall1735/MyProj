@@ -10,6 +10,9 @@ https://atom.io/packages/autoclose-html
 Atom autocomplete for modules.
 https://atom.io/packages/autocomplete-modules
 
+atom-autocomplete-php
+https://atom.io/packages/atom-autocomplete-php
+
 autocomplete+ paths
 https://atom.io/packages/autocomplete-paths
 
@@ -34,6 +37,9 @@ https://atom.io/packages/git-time-machine
 go-debug
 https://atom.io/packages/go-debug
 
+PHP Debug
+https://atom.io/packages/php-debug
+
 go-plus
 https://atom.io/packages/go-plus
 
@@ -42,6 +48,9 @@ https://atom.io/packages/highlight-selected
 
 Linter
 https://atom.io/packages/linter
+
+linter-php
+https://atom.io/packages/linter-php
 
 Minimap package
 https://atom.io/packages/minimap
