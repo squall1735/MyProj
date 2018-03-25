@@ -10,6 +10,9 @@ https://atom.io/packages/autoclose-html
 Atom autocomplete for modules.
 https://atom.io/packages/autocomplete-modules
 
+atom-autocomplete-php
+https://atom.io/packages/atom-autocomplete-php
+
 autocomplete+ paths
 https://atom.io/packages/autocomplete-paths
 
