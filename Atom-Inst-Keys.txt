@@ -46,6 +46,9 @@ https://atom.io/packages/highlight-selected
 Linter
 https://atom.io/packages/linter
 
+linter-php
+https://atom.io/packages/linter-php
+
 Minimap package
 https://atom.io/packages/minimap
 
