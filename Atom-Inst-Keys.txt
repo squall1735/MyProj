@@ -52,6 +52,9 @@ https://atom.io/packages/linter
 linter-php
 https://atom.io/packages/linter-php
 
+php-cs-fixer
+https://atom.io/packages/php-cs-fixer
+
 Minimap package
 https://atom.io/packages/minimap
 
